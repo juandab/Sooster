@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.cuadro{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 50px;
+	padding-left: 50px;
+}
+.logotipo img {
+	width: 130px;
+	height: 60px;
+	display: inline-block;
+	float: left;
+}
+.titu1{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	margin-top: 15px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	color: #fff;
+}
+.titu2{
+	font-family: 'Ubuntu', sans-serif;
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+
+	color: #fff;
+	float: left;
+}
+.nav {
+	margin-right: 150px;
+}
+.nav ul li{
+	display: inline-block;
+}
+.nav ul li a {
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration: none;
+	color: #fff;
+	padding: 15px;
+}
+.servicios{
+	background-color: #ff920a;
+	border-radius: 50%;
+
+}
+.nav ul li a:hover {
+	background-color: #ff920a;
+	border-radius: 50%;
+}
+header{
+	background: url("../imagenes/diseño web.png");
+	background-size: cover;
+}
